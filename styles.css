@@ -28,6 +28,14 @@ nav ul li {
   padding-right: 0.5em;
 }
 
+.book_display li {
+  margin: 0;
+  text-transform: capitalize;
+  display: flex;
+  gap: 6px;
+  width: 100%;
+}
+
 nav ul li:last-child {
   border: none;
 }
@@ -95,20 +103,12 @@ button {
   padding: 0.2em;
 }
 
-hr {
-  display: none;
-}
-
-.book_display li {
-  margin: 0;
-  text-transform: capitalize;
-  display: flex;
-  gap: 6px;
-  width: 100%;
-}
-
 .book_display ul div:nth-child(odd) {
   background-color: lavender;
+}
+
+hr {
+  display: none;
 }
 
 form {
@@ -122,7 +122,8 @@ form button {
   align-self: flex-end;
 }
 
-.contact_section, .add_section {
+.contact_section,
+.add_section {
   display: grid;
   place-items: center;
 }
